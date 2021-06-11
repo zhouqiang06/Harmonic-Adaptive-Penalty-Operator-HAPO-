@@ -34,7 +34,7 @@ avg_days_yr = 365.25 # The constant T in the manuscript
 
 # Load the test data
 # The data are 2 by 13 matrix that record date and NIR surface reflectance in 2017 from a Landsat pixel
-data = np.load(r'K:\90daytemp\QZhou\transfer\tile_valid_results\Bands\GA\ts_demo\data.npy')
+data = np.load(r'data.npy')
 data_year = 2017
 
 pred_dates = np.asarray(range(date(data_year, 1, 1).toordinal(), date(data_year, 12, 31).toordinal())) # dates to predict
