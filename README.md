@@ -20,3 +20,4 @@ Required modules
 # Usage
 
 Please run the test.py to get the following plot
+![alt text](https://github.com/zhouqiang06/Harmonic-Adaptive-Penalty-Operator-HAPO-/blob/main/tests/test_plot.png?raw=true)
